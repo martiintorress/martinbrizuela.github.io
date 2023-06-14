@@ -1,0 +1,95 @@
+// index
+h2{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-hija{
+    border: solid 2px $coloruno;
+    margin: 10px;
+    background-color: $coloruno;
+flex: 1;
+border-radius: 6px;
+box-shadow: 10px 10px 10px 10px gray;
+
+
+}
+
+.img-index{
+    width: 300px;
+    margin-left: 55px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;}
+
+    // contacto
+    form {
+        width: 100%;
+      }
+      
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        background-color: $coloruno;
+        border: solid $colordos 2px;
+      }
+      
+      label {
+        margin-bottom: 5px;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+      }
+      
+      input[type="submit"] {
+        background-color: $coloruno;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: white;
+        color: $colordos;
+      }
+
+    //   historia
+    .articulo{
+        display: flex;
+        background-color: $coloruno;
+        margin-top: 10px;
+    flex-wrap: wrap;
+    }
+    
+    .img-historia{
+@include tamanio2
+    }
+
+    // equipo sub 20
+
+    article{
+        display: flex;
+        background-color: $coloruno;
+        margin-top: 10px;
+    }
+     
+    .img-20{
+  @include tamaño
+    
+    
+    }
+
+    
+
